@@ -6,8 +6,8 @@ import "./Header.css";
 export default function Header() {
   return (
     <header>
-      <Navbar bg="dark" expand="lg" className="header">
-        <Container>
+       <Navbar bg="dark" expand="lg" className="header">
+        <Container className="contabar">
           <Navbar.Brand href="#home">Salyaka</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -20,7 +20,7 @@ export default function Header() {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar>   
     </header>
   );
 }
