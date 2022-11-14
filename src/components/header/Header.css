@@ -1,18 +1,12 @@
 .header {
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+    to right,
     hsl(64, 76%, 60%),
     #198754,
     #0dcaf0
   ) !important;
 }
-.contabar{
-  display:flex;
-  float:right;
-  color:hsl(0, 0%, 100%) !important;
+.nav-item {
+  justify-content: flex-end;
+  flex: auto;
 }
-@media screen and (min-width: 768px) {
-  .username-text {
-    display: block;
-  }
-}
-
