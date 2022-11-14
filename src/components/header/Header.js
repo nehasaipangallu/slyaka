@@ -1,21 +1,24 @@
 import React from 'react';
-// export default function Header() {
-//   return (
-//     const element = (
-//     <div>
-//       <h1>Hellow There</h1>
-//     </div>
-//     )
-//   );
-// }
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function Header() {
   return (
     <header>
-      <div>Slyaka</div>
-
-      <div>Home</div>
-      <div>About Us</div>
+      <Navbar bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">Salyaka</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#about">About Us</Nav.Link>
+              <Nav.Link href="#link">Services</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </header>
   );
 }
