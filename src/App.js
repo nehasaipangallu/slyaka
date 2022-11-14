@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fontsource/montserrat';
 import './style.css';
 import Header from './components/header/Header';
 import About from './components/about/About';
@@ -12,12 +13,10 @@ export default function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-        <Route exact path='/about' element={< About />}></Route> 
-        <Route exact path='/' element={< Home />}></Route>  
-                      
-          </Routes>
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
+        </Routes>
       </BrowserRouter>
-    
     </div>
   );
 }
