@@ -6,7 +6,11 @@
     #0dcaf0
   ) !important;
 }
-.nav-item {
+.nav-items {
   justify-content: flex-end;
   flex: auto;
+}
+
+.nav-items > .nav-item {
+  color: white;
 }
