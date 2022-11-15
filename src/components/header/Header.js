@@ -9,8 +9,10 @@ export default function Header() {
   return (
     <header>
       <Navbar bg="dark" expand="lg" className="header">
-        <Container >
-          <Navbar.Brand href="#home" className="homey">Slyaka </Navbar.Brand>
+        <Container>
+          <Navbar.Brand href="#home" className="homey">
+            Slyaka{' '}
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto contabar nav-items">
@@ -30,44 +32,40 @@ export default function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      
+
       <Carousel className="slide">
-      <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+        <Carousel.Item interval={1000}>
+          <img
+            className="d-block w-100"
+            src="https://github.com/nehasaipangallu/yeption/blob/main/assets/favicon-32x32.png?raw=true"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>About Slyaka</h3>
+            <p>We will Develop your dream.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={500}>
+          <img
+            className="d-block w-100"
+            src="business.png"
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src="work.png" alt="Third slide" />
+          <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
     </header>
   );
 }
