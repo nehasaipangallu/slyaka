@@ -37,7 +37,7 @@ export default function Header() {
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
-            src="https://github.com/nehasaipangallu/yeption/blob/main/assets/laptop.png?raw=true"
+            src=""
             alt="First slide"
           />
           <Carousel.Caption>
