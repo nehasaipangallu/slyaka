@@ -19,14 +19,14 @@ export default function About() {
         professional minds. We are available for hire in a wide range of
         creative displaces for a variety of jobs, projects, and gigs.</p>
         We are the best specialized in following
-<p><b>+ web development
+<p>+ web development
 + Mobile app development
 + Android app development
 + iOS app development
 + Desktop application and development
 + Software development
 + Digital marketing and branding
-+ IT consultingp</b></p>
++ IT consultingp<</p>
 <p>We develop innovative and artistic products and services that provide total communication and knowledge solutions.
 Our business philosophy is to confirm the very greatest top quality, total client satisfaction, timely delivery, and therefore the highest quality. We convert client requirements into an answer that specializes in building secure, scalable, and centric products.
 We are having a creative and focused company staff. Extend your team with our experts, and follow the proper development methodologies practices, and work culture.
