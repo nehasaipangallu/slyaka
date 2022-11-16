@@ -1,10 +1,16 @@
 .header {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     hsl(64, 76%, 60%),
     #198754,
     #0dcaf0
-  ) !important;
+  ) !important; */
+  background-color: rgb(36, 231, 205) !important;
+
+}
+header{
+  position: sticky;
+  top: 0;
 }
 .nav-items {
   justify-content: flex-end;
@@ -18,5 +24,9 @@
   color: white;
 }
 .slide{
-  height: 500px;
+  height: auto;
+}
+.carousel-item{
+  top:0;
+  bottom: auto;
 }

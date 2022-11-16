@@ -1,8 +1,43 @@
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
+import './Home.css';
 
 export default function Home() {
 return(
   <div class="container" style={{ marginTop: 20 + 'px' }}>
+     <Carousel className="slide">
+        <Carousel.Item interval={1000}>
+          <img
+            className="d-block w-100"
+            src="https://github.com/nehasaipangallu/yeption/blob/main/assets/background.PNG?raw=true"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>About Slyaka</h3>
+            <p>We will Develop your dream.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={500}>
+          <img
+            className="d-block w-100"
+            src="https://github.com/nehasaipangallu/yeption/blob/main/assets/background.PNG?raw=true"
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h3>About Us</h3>
+            <p>.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src="https://github.com/nehasaipangallu/yeption/blob/main/assets/background.PNG?raw=true" alt="Third slide" />
+          <Carousel.Caption>
+            <h3>Our Pricing Plans</h3>
+            <p>
+          .
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
   <h3>A Few words <b>About Us</b></h3>
   <p class="row">
        <p><b> History First!</b> Have you ever thought that your business needs a complete
