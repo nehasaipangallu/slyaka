@@ -18,8 +18,8 @@ export default function About() {
         <p>yeption is a rising concern, a group of highly
         professional minds. We are available for hire in a wide range of
         creative displaces for a variety of jobs, projects, and gigs.</p>
-        We are the best specialized in following
-<p><div class="accordion accordion-flush" id="accordionFlushExample">
+        <p>We are the best specialized in following
+<div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">

@@ -6,7 +6,7 @@ import Header from './components/header/Header';
 import About from './components/about/About';
 import { Route, Routes, BrowserRouter, Switch } from 'react-router-dom';
 import Home from './components/home/Home';
-
+import { HashRouter, Route } from 'react-router-dom';
 export default function App() {
   return (
     <div>
