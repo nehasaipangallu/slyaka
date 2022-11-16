@@ -20,7 +20,12 @@ header{
 
 .nav-items > .nav-item {
   color: white;
+  /* transform: scale(1.1); */
 }
+.nav-item:hover{
+  transform: scale(1.1);
+}
+
 .homey{
   color: white;
 }
@@ -33,4 +38,10 @@ header{
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3Csvg fill='%23FFFFFF' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50' width='50px' height='50px'%3E%3Cpath d='M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-nav .nav-link.active{
+  color:rgb(153, 145, 143);
 }
