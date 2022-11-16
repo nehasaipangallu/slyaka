@@ -4,6 +4,8 @@ import '@fontsource/montserrat';
 import './style.css';
 import Header from './components/header/Header';
 import About from './components/about/About';
+import Pricing from './components/pricing/Pricing';
+
 import {
   Route,
   Routes,
@@ -26,8 +28,9 @@ export default function App() {
       <HashRouter>
         <Header />
         <Routes className="content">
+          <Route exact path="/home" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/pricing" element={<Pricing />}></Route>
         </Routes>
       </HashRouter>
     </div>
