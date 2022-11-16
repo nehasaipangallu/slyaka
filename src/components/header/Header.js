@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.css';
-
+import { Route, NavLink, HashRouter } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -16,24 +16,27 @@ export default function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto contabar nav-items">
-              <Nav.Link href="#home" className="nav-item">
+              <Nav.Link className="nav-item">
+                <NavLink to="/home"></NavLink>
                 Home
               </Nav.Link>
-              <Nav.Link href="/about" className="nav-item">
+
+              <Nav.Link className="nav-item">
+                <NavLink to="/about"></NavLink>
                 About Us
               </Nav.Link>
-              <Nav.Link href="#link" className="nav-item">
+              <Nav.Link className="nav-item">
+                <NavLink to="/services"></NavLink>
                 Services
               </Nav.Link>
-              <Nav.Link href="#link2" className="nav-item">
+              <Nav.Link className="nav-item">
+                <NavLink to="/pricing"></NavLink>
                 Pricing
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-     
     </header>
   );
 }

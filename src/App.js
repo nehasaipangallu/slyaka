@@ -4,19 +4,32 @@ import '@fontsource/montserrat';
 import './style.css';
 import Header from './components/header/Header';
 import About from './components/about/About';
-import { Route, Routes, BrowserRouter, Switch } from 'react-router-dom';
+import {
+  Route,
+  Routes,
+  BrowserRouter,
+  Switch,
+  HashRouter,
+} from 'react-router-dom';
 import Home from './components/home/Home';
-import { HashRouter, Route } from 'react-router-dom';
 export default function App() {
   return (
     <div>
-      <Header />
-      <BrowserRouter>
+      {/*<Header />
+       <BrowserRouter>
         <Routes>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/" element={<Home />}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <HashRouter>
+        <Header />
+        <Routes className="content">
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
