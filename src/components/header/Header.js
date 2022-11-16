@@ -18,11 +18,9 @@ export default function Header() {
             <Nav className="me-auto contabar nav-items">
               <Nav.Link href="#/home" className="nav-item">
                 Home
-                {/* <NavLink to="/home"></NavLink> */}
+      
               </Nav.Link>
-
               <Nav.Link href="#/about" className="nav-item">
-                {/* <NavLink to="/about"></NavLink> */}
                 About Us
               </Nav.Link>
               <Nav.Link href="#/services" className="nav-item">
