@@ -4,3 +4,7 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+p {
+  font-size: 13px;
+  color: #120f0f;
+}
