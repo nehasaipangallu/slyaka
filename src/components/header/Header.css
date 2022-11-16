@@ -53,3 +53,6 @@ header {
 .navbar-nav .nav-link.active {
   color: rgb(153, 145, 143);
 }
+.navbar-brand:hover{
+  color:rgb(153, 145, 143);
+}
