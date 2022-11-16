@@ -28,8 +28,10 @@ export default function App() {
       <HashRouter>
         <Header />
         <Routes className="content">
+          <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/home" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/about" element={}></Route>
           <Route exact path="/pricing" element={<Pricing />}></Route>
         </Routes>
       </HashRouter>
