@@ -71,8 +71,7 @@ export default function Home() {
           src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_explainer_8jbm.svg?raw=true"
           class="col-lg-4 col-md-6 col-sm-6 col-6"
         />
-
-        <div class="row justify-content-end">
+        <div class="row justify-content-end know-more-container">
           <a href="#/about" class="w-auto know-more ">
             <ArrowRight className="w-auto arrow-btn" />
           </a>

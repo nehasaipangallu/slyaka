@@ -1,27 +1,31 @@
+.know-more-container {
+  height: 100px;
+}
+
 .know-more:hover {
   transform: translateX(15px);
-  transition:  0.3s ease-out ;
+  transition: 0.3s ease-out;
 }
-.arrow-btn{
+.arrow-btn {
   color: #646262;
-  width:35px;
-  height:35px;
+  width: 35px;
+  height: 35px;
 }
-.imgtag > strong{
-bottom: 60px;
+.imgtag > strong {
+  bottom: 60px;
 }
-body{
+body {
   background-color: rgb(178, 240, 214);
-
 }
-.img-text{
-  color:#646262;
+.img-text {
+  color: #646262;
   font-size: 20px;
   justify-content: center;
+  text-align: center;
 }
-.row{
+.row {
   align-items: center;
 }
-.img-cap{
-  color:#646262;
+.img-cap {
+  color: #646262;
 }
