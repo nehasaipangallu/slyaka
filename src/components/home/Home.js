@@ -8,9 +8,17 @@ export default function Home() {
   return (
     <div class="container" style={{ marginTop: 20 + 'px' }}>
       <div class="row">
-      <img src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_iteration_kjok.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6" />
-<h4 class="col-lg-8 col-md-6 col-sm-12 imgtag"><strong>We provide everything your team needs to discover insights and make solid business decisions</strong></h4>
-</div>
+        <img
+          src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_iteration_kjok.svg?raw=true"
+          class="col-lg-4 col-md-6 col-sm-6 col-8"
+        />
+        <h6 class="col-lg-8 col-md-6 col-sm-12 img-text">
+          <strong>
+            We provide everything your team needs to discover insights and make
+            solid business decisions
+          </strong>
+        </h6>
+      </div>
 
       {/* <Carousel className="slide">
         <Carousel.Item interval={1000}>
@@ -48,23 +56,27 @@ export default function Home() {
         </Carousel.Item>
       </Carousel> */}
       {/* About US */}
-      <h3>
-        <b>A Few words About Us</b>
-      </h3>
-      <p class="row">
-        <p>
-           History First! Have you ever thought that your business needs
-          a complete solution rather than a mere short-term satisfaction? Well,
-          we are a group of earthly beings who always think of straight-notch
+      <div class="row">
+        <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
+          <h3>
+            <b>A Few words About Us</b>
+          </h3>
+          History First! Have you ever thought that your business needs a
+          complete solution rather than a mere short-term satisfaction? Well, we
+          are a group of earthly beings who always think of straight-notch
           answers without taking any shortcuts. And, thats how The Great{' '}
           <b>"Slyaka"</b>was born.
-          </p>
-       
-      </p>
-      <div class="row justify-content-end">
-        <a href="#/about" class="w-auto know-more">
-        <ArrowRight className="w-auto" />
-        </a>
+        </p>
+        <img
+          src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_explainer_8jbm.svg?raw=true"
+          class="col-lg-4 col-md-6 col-sm-6 col-6"
+        />
+
+        <div class="row justify-content-end">
+          <a href="#/about" class="w-auto know-more ">
+            <ArrowRight className="w-auto arrow-btn" />
+          </a>
+        </div>
       </div>
     </div>
   );
