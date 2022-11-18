@@ -7,7 +7,12 @@ import './Home.css';
 export default function Home() {
   return (
     <div class="container" style={{ marginTop: 20 + 'px' }}>
-      <Carousel className="slide">
+      <div class="row">
+      <img src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_iteration_kjok.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6" />
+<p class="col-lg-8 col-md-6 col-sm-12 imgtag"><strong>We provide everything your team needs to discover insights and make solid business decisions</strong></p>
+</div>
+
+      {/* <Carousel className="slide">
         <Carousel.Item interval={1000}>
           <img
             className="d-block w-100"
@@ -41,32 +46,20 @@ export default function Home() {
             <p>.</p>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
       {/* About US */}
       <h3>
-        A Few words <b>About Us</b>
+        <b>A Few words About Us</b>
       </h3>
       <p class="row">
         <p>
-          <b> History First!</b> Have you ever thought that your business needs
+           History First! Have you ever thought that your business needs
           a complete solution rather than a mere short-term satisfaction? Well,
           we are a group of earthly beings who always think of straight-notch
           answers without taking any shortcuts. And, thats how The Great{' '}
           <b>"Slyaka"</b>was born.
-          <b>"Unique + Creative + Narrative + Innovative = Slyaka"</b>
-        </p>
-        <p>
-          {' '}
-          In a coating, Our Slyaka spots down all the agile frameworks into one
-          strengthened team of Workforce. yeption is an Indian start-up company.
-          We develop the human brain to reach their goal and provide
-          opportunities to make their dream reality.
-        </p>
-        <p>
-          Slyaka is a rising concern, a group of highly professional minds. We
-          are available for hire in a wide range of creative displaces for a
-          variety of jobs, projects, and gigs.
-        </p>
+          </p>
+       
       </p>
       <div class="row justify-content-end">
         <a href="#/about" class="w-auto know-more">

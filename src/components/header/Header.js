@@ -11,14 +11,18 @@ export default function Header() {
       <Navbar bg="dark" expand="lg" className="header">
         <Container>
           <Navbar.Brand href="#/home" className="homey">
-            Slyaka{' '}
+            <img
+              src="https://github.com/nehasaipangallu/yeption/blob/main/assets/slyaka.png?raw=true"
+              width="30"
+              height="30"
+              className="d-inline-block align-top logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto contabar nav-items">
               <Nav.Link href="#/home" className="nav-item">
                 Home
-      
               </Nav.Link>
               <Nav.Link href="#/about" className="nav-item">
                 About Us

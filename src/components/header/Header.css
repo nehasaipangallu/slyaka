@@ -72,3 +72,6 @@ header {
 .navbar-brand:focus {
   color: rgb(153, 145, 143);
 }
+.logo{
+  transform: scale(3.5);
+}
