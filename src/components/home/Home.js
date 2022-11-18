@@ -9,7 +9,7 @@ export default function Home() {
     <div class="container" style={{ marginTop: 20 + 'px' }}>
       <div class="row">
       <img src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_iteration_kjok.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6" />
-<p class="col-lg-8 col-md-6 col-sm-12 imgtag"><strong>We provide everything your team needs to discover insights and make solid business decisions</strong></p>
+<h4 class="col-lg-8 col-md-6 col-sm-12 imgtag"><strong>We provide everything your team needs to discover insights and make solid business decisions</strong></h4>
 </div>
 
       {/* <Carousel className="slide">
