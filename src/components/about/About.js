@@ -5,7 +5,10 @@ import './About.css';
 export default function About() {
   return (
     <div class="container" style={{ marginTop: 20 + 'px' }}>
-      <h4>About Us</h4>
+      <div class="row">
+     <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_team_spirit_re_yl1v.svg?raw=true"class="col-lg-8 col-md-8 col-sm-8 col-12 img-tag"/>
+     </div>
+      <h4><strong>Our Story</strong></h4>
       <p class="row gy-2">
         <p class="text-start text-break">
           <b> History First!</b> Have you ever thought that your business needs
@@ -80,6 +83,27 @@ export default function About() {
           encourage visitors to check out our all products and services. We are
           dedicated and have a passion for excellence.
         </p>
+        <p class="text-start text-break">
+          <h6><strong>what this Slyaka is about?</strong></h6>
+        No doubt that you are in this ‘Digital ball of life’ where your morning coffee is so hot because of the heating cup and your daily social feeds. Moreover, if you are a businessman in this digital world, then you really are lost in this vast web called “Online”. yeption does know that and that’s when it jumps in the sea to become your savior. yeption is a digital yard, where you can build a whole website boat for your online travel, take life jackets of marketing for the safe reach of targets, most importantly you can hire a captain of business consulting in case you are not yet ready and much more on the go.
+       </p>
+       <p class="text-start text-break">
+  <h6>Pillars of Slyaka:</h6>
+As we already said, Slyaka is all about delivering solutions for Digital needs under the business roof. Here are the number of pillars that hold up Slyaka strongly on top of the crowd.
+<ul><li>Web Development</li>
+<li>App Development</li>
+<li>Branding</li>
+<li>B2B Consulting</li>
+<li>Custom Software Development</li></ul>
+</p>
+<p class="text-start text-break">
+<h6>Highlights of Team ‘Slyaka’</h6>
+We focus on our client’s business goals and deliver the right solutions for online growth and greater brand loyalty from start till end.
+Plan, project, Picturesque, and Produce. Our strict rule of productivity in all the pillars of work.
+Strict standards of working which include R&D, competitor analysis, best methods of implementation, creativity will be emphasized in every stage of development and consulting.
+We don’t stop at just delivering what you need, we do suggest further implementations if needed or required to build a more reliable and creative product for you and your digital business.
+</p>
+
       </p>
     </div>
   );
