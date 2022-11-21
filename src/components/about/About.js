@@ -31,10 +31,47 @@ export default function About() {
         <p class="text-start text-break">
           We are the best specialized in following
         </p>
-        <Accordion>
+        <div class="row">
+         
+          <img
+            src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_web_developer_re_h7ie.svg?raw=true"
+            class="col-lg-4 col-md-6 col-sm-6 col-6"
+          />
+          <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
+            {' '}
+            <h5>
+            <strong>web development</strong>
+          </h5>
+            we are the simplest dedicated in web designing & development,
+            android apps, digital marketing in India. We are the simplest
+            leading company, web designing development, android application apps
+            digital marketing software development e-commerce. E-commerce web
+            designing company. we've experienced web developers. Buy our top SEO
+            services, digital marketing services, and web design and development
+            services at a reasonable price. A company specialized in building a
+            custom web application to satisfy your company’s business needs.
+          </p>
+        </div>
+        <div class="row">
+       
+          <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
+          <h5 class="col-lg-8 col-md-6 col-sm-12">
+            <strong>Mobile App Development</strong>
+          </h5>
+          Mobile app development is a process for building mobile applications that run on mobile devices. These applications can either be pre-installed or downloaded and installed by the user later. They use the network capabilities of the device to work computing resources remotely.  Hence, the mobile app development process requires creating software that can be installed on the device, and enabling backend services for data access through APIs, and testing the application on target devices.
+            </p>
+            <img
+            src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_mobile_application_re_13u3.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6"/>
+          </div>
+
+          <div class="row">
+         
+         <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_mobile_development_re_wwsn.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6"/>
+         </div>
+        {/* <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header> web development</Accordion.Header>
-            <Accordion.Body>web development</Accordion.Body>
+            <Accordion.Body></Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
             <Accordion.Header>Mobile app development</Accordion.Header>
@@ -62,7 +99,7 @@ export default function About() {
             <Accordion.Header>IT consulting</Accordion.Header>
             <Accordion.Body>IT consulting</Accordion.Body>
           </Accordion.Item>
-        </Accordion>
+        </Accordion> */}
 
         <p class="text-start text-break">
           We develop innovative and artistic products and services that provide

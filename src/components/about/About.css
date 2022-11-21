@@ -1,3 +1,11 @@
 .accordion{
   --bs-accordion-bg: rgb(178, 240, 214) !important;
 }
+.row{
+  align-items: center;
+}
+.img-cap{
+  color: #646262;
+  justify-content: center;
+  text-align: center;
+}

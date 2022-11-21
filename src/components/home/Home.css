@@ -26,12 +26,12 @@ body {
 .row {
   align-items: center;
 }
-.row-first{
+/* .row-first{
   align-items: center;
   padding-bottom:80px;
   border-bottom: 10px;
   
-}
+} */
 .img-cap {
   color: #646262;
 }
