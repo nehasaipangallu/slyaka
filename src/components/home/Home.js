@@ -56,7 +56,7 @@ export default function Home() {
         </Carousel.Item>
       </Carousel> */}
       {/* About US */}
-      <div class="row">
+      <div class="row-first">
         <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
           <h3>
             <b>A Few words About Us</b>
