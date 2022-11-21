@@ -7,6 +7,7 @@ import About from './components/about/About';
 import Pricing from './components/pricing/Pricing';
 import Services from './components/services/Services';
 
+
 import {
   Route,
   Routes,
@@ -35,6 +36,7 @@ export default function App() {
           <Route exact path="/about" element={}></Route>
           <Route exact path="/pricing" element={<Pricing />}></Route>
           <Route exact path="/services" element={<Services />}></Route>
+          {/* <Route exact path="/contact" element={<Contact />}></Route> */}
         </Routes>
       </HashRouter>
     </div>

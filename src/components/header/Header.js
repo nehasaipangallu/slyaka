@@ -35,6 +35,10 @@ export default function Header() {
                 <NavLink to="/pricing"></NavLink>
                 Pricing
               </Nav.Link>
+              <Nav.Link href="#/contact" className="nav-item">
+                <NavLink to="/contact"></NavLink>
+               Contact Us
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
