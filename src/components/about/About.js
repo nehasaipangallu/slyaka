@@ -61,12 +61,19 @@ export default function About() {
           Mobile app development is a process for building mobile applications that run on mobile devices. These applications can either be pre-installed or downloaded and installed by the user later. They use the network capabilities of the device to work computing resources remotely.  Hence, the mobile app development process requires creating software that can be installed on the device, and enabling backend services for data access through APIs, and testing the application on target devices.
             </p>
             <img
-            src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_mobile_application_re_13u3.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6"/>
+            src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_mobile_apps_re_3wjf.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6"/>
           </div>
-
+          
           <div class="row">
          
          <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/undraw_mobile_development_re_wwsn.svg?raw=true" class="col-lg-4 col-md-6 col-sm-6 col-6"/>
+         <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
+          <h5 class="col-lg-8 col-md-6 col-sm-12">
+            <strong>ios App Development</strong>
+          </h5>
+          iOS application development is the process of making mobile applications for Apple hardware, including iPhone, iPad and iPod Touch. The software is written in the Swift programming language or Objective-C and then deployed to the App Store for users to download.
+            </p>
+         
          </div>
         {/* <Accordion>
           <Accordion.Item eventKey="0">
