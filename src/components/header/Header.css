@@ -18,7 +18,7 @@ header {
 }
 
 .nav-items > .nav-item {
-  color: white;
+  color: white !important;
   position: relative;
   font-size: 14px;
 }

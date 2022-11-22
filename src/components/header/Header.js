@@ -4,11 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.css';
 import { Route, NavLink, HashRouter } from 'react-router-dom';
+import {Navbar, Nav, NavItem, NavDropdown, DropdownButton, MenuItem, CollapsibleNav} from 'react-bootstrap';
+import React, { useState, useEffect } from 'react';
 
 export default function Header() {
   return (
     <header>
-      <Navbar bg="dark" expand="lg" className="header">
+      <Navbar bg="dark" expand="lg" className="header" collapseOnSelect="true">
         <Container>
           <Navbar.Brand href="#/home" className="homey">
             <img

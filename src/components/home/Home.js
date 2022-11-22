@@ -12,12 +12,14 @@ export default function Home() {
           src="https://github.com/nehasaipangallu/yeption/blob/main/assets/undraw_product_iteration_kjok.svg?raw=true"
           class="col-lg-4 col-md-6 col-sm-6 col-8"
         />
-        <h6 class="col-lg-8 col-md-6 col-sm-12 img-text">
-          <strong>
+        
+        <p class="col-lg-8 col-md-6 col-sm-12 img-text">
+          <h2>All in One Business Solution</h2>
+          <h6>
             We provide everything your team needs to discover insights and make
             solid business decisions
-          </strong>
-        </h6>
+          </h6>
+        </p>
       </div>
 
       {/* <Carousel className="slide">
@@ -58,9 +60,9 @@ export default function Home() {
       {/* About US */}
       <div class="row">
         <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
-          <h3>
-            <b>A Few words About Us</b>
-          </h3>
+          <h2>
+            A Few words About Us
+          </h2>
           History First! Have you ever thought that your business needs a
           complete solution rather than a mere short-term satisfaction? Well, we
           are a group of earthly beings who always think of straight-notch

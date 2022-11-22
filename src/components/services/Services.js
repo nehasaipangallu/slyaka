@@ -6,7 +6,7 @@ export default function Services() {
     <div class="container" style={{ marginTop: 20 + 'px' }}>
       <h4>Services We Provide</h4>
       <p>
-        <p>We are the best specialized in following Activities</p>
+        <p>We are the best specialized in following activities</p>
 
         <div class="row">
           <img
@@ -16,7 +16,7 @@ export default function Services() {
           <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
             {' '}
             <h5>
-              <strong>web development</strong>
+              <strong>Web development</strong>
             </h5>
             we are the simplest dedicated in web designing & development,
             android apps, digital marketing in India. We are the simplest
@@ -31,7 +31,7 @@ export default function Services() {
 
         <div class="row">
           <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
-            <h5 class="col-lg-8 col-md-6 col-sm-12">
+            <h5>
               <strong>Android App Development</strong>
             </h5>
             Android app development is a process for building mobile
@@ -55,8 +55,8 @@ export default function Services() {
             class="col-lg-4 col-md-6 col-sm-6 col-6"
           />
           <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
-            <h5 class="col-lg-8 col-md-6 col-sm-12">
-              <strong>ios App Development</strong>
+            <h5>
+              <strong>iOS App Development</strong>
             </h5>
             iOS application development is the process of making mobile
             applications for Apple hardware, including iPhone, iPad and iPod
@@ -68,8 +68,8 @@ export default function Services() {
 
         <div class="row">
           <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
-            <h5 class="col-lg-8 col-md-6 col-sm-12">
-              <strong>software Development</strong>
+            <h5>
+              <strong>Software Development</strong>
             </h5>
             Software development refers to a set of computer science activities
             dedicated to the process of creating, designing, deploying and
@@ -101,7 +101,7 @@ export default function Services() {
             class="col-lg-4 col-md-6 col-sm-6 col-6"
           />
           <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
-            <h5 class="col-lg-8 col-md-6 col-sm-12">
+            <h5>
               <strong>Digital Marketing</strong>
             </h5>
             Any marketing that uses electronic devices and can be used by
@@ -116,8 +116,8 @@ export default function Services() {
 
         <div class="row">
           <p class="col-lg-8 col-md-6 col-sm-12 img-cap">
-            <h5 class="col-lg-8 col-md-6 col-sm-12">
-              <strong>It Consulting</strong>
+            <h5>
+              <strong>IT Consulting</strong>
             </h5>
             IT consulting services are advisory services that help clients
             assess different technology strategies and, in doing so, align their

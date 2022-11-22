@@ -6,7 +6,7 @@ import Header from './components/header/Header';
 import About from './components/about/About';
 import Pricing from './components/pricing/Pricing';
 import Services from './components/services/Services';
-
+import Footer from './components/footer/Footer';
 
 import {
   Route,
@@ -36,9 +36,12 @@ export default function App() {
           <Route exact path="/about" element={}></Route>
           <Route exact path="/pricing" element={<Pricing />}></Route>
           <Route exact path="/services" element={<Services />}></Route>
+          
           {/* <Route exact path="/contact" element={<Contact />}></Route> */}
         </Routes>
+        <Footer />
       </HashRouter>
+     
     </div>
   );
 }
