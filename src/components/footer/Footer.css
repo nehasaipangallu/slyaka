@@ -1,3 +1,6 @@
-.about-comp{
-  color:azure
+.flex-body{
+  height: 40vh;
+  width:100%;
+  background-color: black;
+ color: aliceblue;
 }
