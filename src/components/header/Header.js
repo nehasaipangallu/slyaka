@@ -37,6 +37,10 @@ export default function Header() {
                 <NavLink to="/pricing"></NavLink>
                 Pricing
               </Nav.Link>
+              <Nav.Link href="#/career" className="nav-item">
+                <NavLink to="/career"></NavLink>
+               Career
+              </Nav.Link>
               <Nav.Link href="#/contact" className="nav-item">
                 <NavLink to="/contact"></NavLink>
                Contact Us
