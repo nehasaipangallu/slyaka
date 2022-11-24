@@ -3,4 +3,15 @@
   width:100%;
   background-color: black;
  color: aliceblue;
+ 
+justify-content: center;
+}
+.fab-icon{
+  height:6vh;
+  width: auto;
+ margin:35px;
+}
+.link-to{
+  color: aliceblue;
+  justify-content: flex-end !important;
 }

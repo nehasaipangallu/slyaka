@@ -129,9 +129,21 @@ import './Footer.css';
 
 export default function Footer(){
 return(
-<div className="d-flex p-2 flex-body">Get Connected with us on Social Media:
-
-</div>
+<div className="d-flex p-2 flex-body">
+  <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/icons8-facebook-circled.svg?raw=true" className="fab-icon" />
+  <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/icons8-instagram.svg?raw=true" className="fab-icon"/>
+  <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/icons8-linkedin.svg?raw=true" className="fab-icon"/>
+  <img src="https://github.com/nehasaipangallu/slyaka/blob/main/assets/icons8-twitter-circled.svg?raw=true"  className="fab-icon" />
+  <div className="d-flex flex-column mb-3">
+  <p className="link-to">Useful Links</p>
+    <a href="#/home">Home</a>
+    <a href="#/about">About Us</a>
+    <a href="#/services"> Services </a>
+    <a href ="#/pricing"> Pricing </a>
+    <a href ="#/contact">Contact Us</a>
+    </div>
+  </div>
+ 
 
 );
 };
